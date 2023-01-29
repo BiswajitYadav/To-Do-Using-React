@@ -68,7 +68,7 @@ const deleteTodo = async (id) =>{
     <>
       <div className={style.bg}>
         <div className={style.container}>
-          <h3 className={style.heading}>Todo App</h3>
+          <h3 className={style.heading}>To-Do App</h3>
           <form onSubmit={createTodo} className={style.form}>
               <input value={input} onChange={(e)=>setInput(e.target.value)} className={style.input} type="text" placeholder="Add Todo" />
               <button className={style.button}><AddIcon size={30} /></button>
